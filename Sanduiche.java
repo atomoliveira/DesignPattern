@@ -1,9 +1,12 @@
+class Sanduiche {
+    private String nome;
 
-public class Sanduiche {
+    public Sanduiche(String nome) {
+        this.nome = nome;
+    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+    public String getNome() {
+        return nome;
+    }
 }
+
